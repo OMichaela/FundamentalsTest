@@ -24,4 +24,5 @@ public abstract class Plant {
 	public void setHeight(double height) {
 		this.height = height;
 	}
+	
 }
