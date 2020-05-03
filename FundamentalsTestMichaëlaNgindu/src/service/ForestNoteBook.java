@@ -1,7 +1,9 @@
 package service;
 import animal_entities.*;
+
 import plant_entities.*;
 import java.util.List;
+import java.util.ListIterator.*;
 
 
 
@@ -66,7 +68,7 @@ public class ForestNoteBook {
 			
 	}
 	
-	public void sortAnimalsByName() {//methode ordre naturel
+	public void sortAnimalsByName() {//ordre naturel//
 		
 	}
 	

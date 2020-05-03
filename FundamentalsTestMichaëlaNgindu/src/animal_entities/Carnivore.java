@@ -12,7 +12,7 @@ public class Carnivore extends Animal {
 		super(name, weight, height, length);
 	}
 	public double getMaxFoodSize() {
-		return maxFoodSize;//Override?//
+		return maxFoodSize;
 	}
 	
 	public void setMaxFoodSize(double maxFoodSize) {
