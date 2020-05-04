@@ -1,10 +1,12 @@
 package animal_entities;
-import plant_entities.*; 
+import plant_entities.*;
+
+import java.util.HashSet;
 import java.util.Set;
 
 public class Omnivore extends Animal{
 
-		private Set<Plant> plantDiet;
+		private Set<Plant> plantDiet = new HashSet<>();
 		private double maxFoodSize;
 		
 		
